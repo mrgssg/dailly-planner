@@ -1,1 +1,2 @@
-# dailly-planner
+# Daily-Planner
+
