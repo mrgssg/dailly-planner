@@ -24,7 +24,6 @@ $(".description").each(function() {
 })
 
 
-
 // save button feature 
 $(".saveBtn").on("click", function () {
    var description = $(this).siblings(".description").val()
@@ -33,7 +32,7 @@ $(".saveBtn").on("click", function () {
     localStorage.setItem(time, description);
 })
 
-
+// for loop to retrieve local storage
 for (var i = 9; i < 16; i++) {
     $(`#${i} .description`).val(localStorage.getItem(`${i}`))
 }
