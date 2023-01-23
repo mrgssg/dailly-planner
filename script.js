@@ -11,7 +11,7 @@ $(".description").each(function() {
         $(this).removeClass("future");
         $(this).addClass("past");
     }
-    else if (rowHour === currentTime) {
+    else if (rowHour == currentTime) {
         $(this).removeClass("future");
         $(this).removeClass("past");
         $(this).addClass("present");
